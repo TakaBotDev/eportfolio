@@ -274,13 +274,7 @@ h2 {
 }
 .timeline li { color: var(--text); }
 
-/* --- Footer --- */
-.site-footer {
-  text-align: center;
-  color: var(--muted);
-  border-top: 1px solid var(--border);
-  padding: 30px 0;
-}
+
 
 /* --- Responsive --- */
 @media (max-width: 900px) {
@@ -546,3 +540,26 @@ h2 {
 
 
 
+/* Footer centré (override la justification globale) */
+.site-footer {
+  width: 100%;
+  border-top: 1px solid var(--border);
+  background: color-mix(in oklab, var(--panel), transparent 90%);
+  padding: 30px 0;
+  margin-top: 40px;
+
+  /* centrer sans ambiguïté */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center !important;
+}
+
+/* s'assure que le texte du footer n'est pas justifié */
+.site-footer p,
+.site-footer a,
+.site-footer span {
+  text-align: center !important;
+  text-justify: auto !important;
+  margin: 0;
+}
