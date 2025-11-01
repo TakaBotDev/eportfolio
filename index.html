@@ -40,6 +40,7 @@
             <!-- Texte à gauche -->
             <div>
                 <h1>François <span class="accent">KHIEN</span></h1>
+                <h2 class="subtitle">Computer engineering student</h2>
                 <p class="lead">
                Hello, I am François KHIEN. After three years of intensive study, I am now a student at ENSEEIHT, an engineering school based in Toulouse.
                My passion for computer science developed rather late — or perhaps not so late after all. I’ve always loved spending time behind a computer, 
@@ -48,7 +49,7 @@
 
                 <div class="cta">
                     <!-- 1️⃣ CV -->
-                    <a class="btn" href="docs/CV_PrenomNom.pdf" target="_blank">Download my CV</a>
+                    <a class="btn" href="#career">Download my CV</a>
 
                      <!-- 2️⃣ LinkedIn -->
                      <a class="btn ghost" href="https://linkedin.com/in/françois-khien-1a0394377" target="_blank">My LinkedIn</a>
@@ -59,7 +60,7 @@
             </div>
 
             <!-- Image à droite -->
-            <figure class="media">
+            <figure class="hero-photo">
                 <img src="images/portrait.jpg" alt="Portrait" loading="lazy">
             </figure>
         </div>
@@ -67,14 +68,14 @@
             <!-- ===== POPUP VIDÉO ===== -->
             <div id="videoModal" class="video-modal">
                 <div class="video-content">
-                <span class="close">&times;</span>
-                <!-- 🎬 Remplace l’URL YouTube ci-dessous -->
-                <iframe
-                    src="https://www.youtube.com/embed/VIDEO_ID"
-                    title="Ma vidéo de présentation"
-                    frameborder="0"
-                    allowfullscreen
-                ></iframe>
+                  <span class="close">&times;</span>
+
+                  <!-- 🎬 Vidéo hébergée sur Google Drive -->
+                  <video controls muted>
+                    <source src="https://drive.google.com/uc?export=download&id=TON_ID_DE_VIDEO" type="video/mp4">
+                    Votre navigateur ne supporte pas la lecture vidéo.
+                  </video>
+                </div>
             </div>
         </div>
     </section>
@@ -88,19 +89,25 @@
         <div class="grid two">
           <div class="card">
             <h3>2018 - Apprenti-chercheur</h3>
-            <p>I had the opportunity to join a research team working on a project analyzing fly behavior before and after mating. 
-              Through this experience, I discovered what a typical day in a laboratory looks like and learned that research is above all a matter of patience and communication.
-              Together with another student researcher, I presented our work at a scientific conference, which was a truly rewarding experience that helped me gain confidence, as I used to be quite shy.
+            <p>I had the opportunity to join a research team at the Jacques Monod Institute, working on a project that analyzed fly behavior before and after mating.
+              Through this experience, I discovered what a typical day in a laboratory is like and learned that research is, above all, a matter of patience and communication.
+              Together with another student researcher, I presented our work at a scientific conference — a truly rewarding experience that helped me gain confidence, 
+              as I used to be quite shy.
             </p>
           </div>
           <div class="card">
             <h3>2024 - TIPE</h3>
             <p>I aimed to model the renal system to highlight the effects of doping on its functioning, as part of my TIPE project on Games and Sports.
+              I tested a simplified model simulating the functioning of the renal system and analyzed the results using my knowledge of fluid mechanics and my research on renal physiology.
             </p>
           </div>
           <div class="card">
             <h3>2025 - TIPE</h3>
-            <p>I worked on the design of a self-powered seismograph as part of my TIPE project on Transition, Transformation, Conversion.</p>
+            <p>I worked on the design of a self-powered seismograph as part of my TIPE project on Transition, Transformation, Conversion.
+              My goal was to use a piezoelectric material as an accelerometer to detect vibrations.
+              Since a piezoelectric material can generate electrical impulses when subjected to mechanical stress, 
+              it was possible to design a self-powered accelerometer — and therefore, a self-powered seismograph.
+            </p>
           </div>
         </div>
       </div>
@@ -112,12 +119,14 @@
         <p class="lead">Échanges, LV2 et expériences interculturelles.</p>
         <div class="grid two">
           <div class="card">
-            <h3>-</h3>
-            <p>-</p>
+            <h3>Countries visited: Germany, Sicily (Italy), Luxembourg, Belgium, Cambodia, and England</h3>
+            <p>I traveled to these countries with friends and family, both for the pleasure of exploring and to discover new cultures.
+              These experiences taught me how to communicate effectively abroad and adapt to different local customs.
+            </p>
           </div>
           <div class="card">
-            <h3>-</h3>
-            <p>-</p>
+            <h3>International mobility project</h3>
+            <p>I aspire to travel to Asia, and more specifically to Japan, a country I deeply admire for its culture and technological innovation.</p>
           </div>
         </div>
       </div>
@@ -142,9 +151,10 @@
       <div class="container">
         <h2>Sport & other activities</h2>
         <div class="grid three">
-          <div class="card"><h3>Sport</h3><p>Club, compétition, rôle</p></div>
-          <div class="card"><h3>Clubs</h3><p>Responsabilités, projets</p></div>
-          <div class="card"><h3>Personnel</h3><p>Hobbies et créations</p></div>
+          <div class="card"><h3>Drawing</h3><p>I like to draw characters with unique designs, or sometimes I just experiment with abstract art.</p></div>
+          <div class="card"><h3>Watching and reading</h3><p>I have always been passionate about watching series — particularly Japanese animation — and reading manga and novels.</p></div>
+          <div class="card"><h3>Writing</h3><p>In my free time, I enjoy writing short stories and developing a long-term novel project.</p></div>
+          <div class="card"><h3>Playing</h3><p>Like many people my age, I enjoy video games, particularly those with strong narratives or horror elements.</p></div>
         </div>
       </div>
     </section>
@@ -152,12 +162,14 @@
     <section id="career" class="section">
       <div class="container">
         <h2>Career Development</h2>
-        <p class="lead">Stages, PEP et développement professionnel.</p>
-        <ul class="timeline">
-          <li><strong>Année 1 :</strong> Stage découverte</li>
-          <li><strong>Année 2 :</strong> Stage technique</li>
-          <li><strong>Année 3 :</strong> Stage de fin d’études</li>
-        </ul>
+         <p>
+           This section presents my professional experiences, internships, and preparation for my future career.
+         </p>
+           <!-- ✅ Bouton pour télécharger le CV -->
+         <a class="btn" href="docs/CV_FR.pdf" target="_blank">Download my CV (FR)</a>
+         <a class="btn" href="docs/CV_EN.pdf" target="_blank">Download my CV (EN)</a>
+         <ul class="timeline">
+         <li><strong>2025 :</strong> Entrée à l'ENSEEIHT </li>
       </div>
     </section>
   </main>
